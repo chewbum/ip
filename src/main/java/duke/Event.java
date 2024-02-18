@@ -17,6 +17,8 @@ public class Event extends Task {
             throw new DukeException("Invalid date format. Please use 'd/M/yyyy', e.g., '2/12/2019'.");
         }
     }
+
+    // get the type icon
     @Override
     public String getTypeIcon() {
         return "[E]";
